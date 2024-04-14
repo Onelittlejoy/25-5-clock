@@ -1,10 +1,50 @@
-.App {
+
+body {
+  background-color: #1e555c;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.length {
+  display: inline-block;
+  width: 250px;
+}
+
+.setting {
+  display: flex;
+  width: 30%;
+  margin: auto auto;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  display: inline-block;
+}
+
+.playandpause {
+  margin-top: 20px;
+}
+
+.clock {
+  border-width:3px;
+  border-style:solid;
+  border-color:white;
+  border-radius: 30px;
+  font-size: 1.8rem;
+  width: 300px;
+  height: 80px;
+  margin: auto auto;
+  padding-top: 10px;
+}
+
+h3 {
+  font-size: 1.5rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
